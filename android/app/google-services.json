@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "6267256969",
+    "project_id": "conversor-b863b",
+    "storage_bucket": "conversor-b863b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6267256969:android:5250c2f10cbc6c9e070658",
+        "android_client_info": {
+          "package_name": "com.conversor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzC8GG6j718lhFg0j8-wHErlZrllNz_js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
