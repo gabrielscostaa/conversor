@@ -19,7 +19,8 @@ Firebase Authentication (opcional)
 
 Clone o repositório:
 
-Copiargit clone https://github.com/seu-usuario/conversor-temperatura-flutter.git
+
+git clone 
 cd conversor-temperatura-flutter
 
 Configure o Flutter:
@@ -39,16 +40,16 @@ Coloque-os nas pastas apropriadas do projeto
 
 Instale as dependências:
 
-Copiarflutter pub get
+flutter pub get
 
 Execute o aplicativo:
 
-Copiarflutter run
+flutter run
 🔧 Configuração do Firebase no Flutter
 
 Adicione as dependências no pubspec.yaml:
 
-yamlCopiardependencies:
+dependencies:
   flutter:
     sdk: flutter
   firebase_core: ^2.15.0
@@ -57,7 +58,7 @@ yamlCopiardependencies:
 
 Inicialize o Firebase em seu main.dart:
 
-dartCopiarimport 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
